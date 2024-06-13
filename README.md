@@ -10,5 +10,5 @@ The project is divided into three parts
   <img src="./two.png">
 </p>
 <p align="center">
-  <img src="./three.png">
+  <img src="./Three.png">
 </p>
