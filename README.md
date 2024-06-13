@@ -6,3 +6,9 @@ The project is divided into three parts
 <p align="center">
   <img src="./one.png">
 </p>
+<p align="center">
+  <img src="./two.png">
+</p>
+<p align="center">
+  <img src="./three.png">
+</p>
