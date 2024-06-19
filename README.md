@@ -1,4 +1,4 @@
-<h1>Project Title: Infrastructure Deployment using IaC and CI/CD Pipeline Implementation<h2>
+<h1>Project Title: Infrastructure Deployment using IaC and CI/CD Pipeline Implementation<h1>
 Project Description:
 
 Overview
