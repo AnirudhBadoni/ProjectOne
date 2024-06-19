@@ -1,22 +1,21 @@
-Project Title: Infrastructure Deployment using IaC and CI/CD Pipeline Implementation
+# Project Title: Infrastructure Deployment using IaC and CI/CD Pipeline Implementation
 
-Project Description:
+## Project Description:
 
-Overview
+## Overview
 This project is a proof of concept commissioned by a client to demonstrate the ability to build a scalable and secure infrastructure using Infrastructure as Code (IaC) practices on AWS/Azure and establish a robust DevOps pipeline for building and deploying a Java application. The project is divided into three main parts: creating a base Amazon Machine Image (AMI) using Packer, containerizing a Java application and implementing a CI/CD pipeline, and deploying the infrastructure using Terraform.
 
-Why Are We Doing This Project?
+## Why Are We Doing This Project?
 The industry values hands-on experience in DevOps and Cloud, as these are specialized and vast fields. Traditional academic courses and Zero to Hero tutorials often fall short in providing the practical, real-world skills necessary for professionals to stand out. This project aims to bridge that gap by offering practical experience in key DevOps and Cloud concepts, allowing professionals to build their GitHub repositories with quality projects that demonstrate their skills.
 
-Who This Project Is Suitable For:
-Freshers and Entry-Level DevOps and Cloud Engineers: Those with some basic knowledge and hands-on experience in simpler projects.
-Experienced IT Professionals Transitioning to DevOps and Cloud: Individuals looking to switch their career path to DevOps and Cloud.
-Experienced IT Professionals in DevOps and Cloud: Those seeking to enhance their skills with more advanced projects.
-Collaboration Timeline:
-Today's Session: Introduction and project kick-off.
-Next Sessions: Scheduled for 8th, 17th, 22nd, and 29th July, via Microsoft Teams. Joining links and session recordings will be shared in the WhatsApp group dedicated to this project.
-Project Breakdown:
-Part 1: Creation of a Base AMI using Packer
+##  Who This Project Is Suitable For:
+1. Freshers and Entry-Level DevOps and Cloud Engineers: Those with some basic knowledge and hands-on experience in simpler projects.
+2. Experienced IT Professionals Transitioning to DevOps and Cloud: Individuals looking to switch their career path to DevOps and Cloud.
+3. Experienced IT Professionals in DevOps and Cloud: Those seeking to enhance their skills with more advanced projects.
+
+## Project Breakdown:
+
+## Part 1: Creation of a Base AMI using Packer
 Objective: Build a base AMI with required software pre-installed.
 Estimated Time: 3 Days
 
