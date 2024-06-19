@@ -61,10 +61,12 @@ The industry values hands-on experience in DevOps and Cloud, as these are specia
 <p align="center">
   <img src="./one.png">
 </p>
-**Application Build:** Use the Spring Petclinic repository or any similar Java application.
+
+**Application Build:**  Use the Spring Petclinic repository or any similar Java application.
 <p align="center">
   <img src="./two.png">
 </p>
+
 **Infrastructure Deployment:** Follow the provided reference architecture for setting up VPC, subnets, and other components.
 <p align="center">
   <img src="./Three.png">
