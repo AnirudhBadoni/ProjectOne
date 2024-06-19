@@ -16,69 +16,64 @@ The industry values hands-on experience in DevOps and Cloud, as these are specia
 ## Project Breakdown:
 
 ## Part 1: Creation of a Base AMI using Packer
-Objective: Build a base AMI with required software pre-installed.
-Estimated Time: 3 Days
+**Objective:** Build a base AMI with the required software pre-installed.
+**Estimated Time:** 3 Days
+**Tools:** Packer, AWS/Azure
+**Software to be Installed:**
+1. CloudWatch Agent
+2. AWS SSM Agent
+3. Docker
+4. Git Client
+**Provisioning:** Use shell script for beginners and Ansible for more experienced participants.
+**CI Tool:** Any CI tool of choice (e.g., Jenkins, GitHub Actions) to build the Packer pipeline.
 
-Tools: Packer, AWS/Azure
-Software to be Installed:
-CloudWatch Agent
-AWS SSM Agent
-Docker
-Git Client
-Provisioning: Use shell script for beginners and Ansible for more experienced participants.
-CI Tool: Any CI tool of choice (e.g., Jenkins, GitHub Actions) to build the Packer pipeline.
-Part 2: Containerizing a Java Application and Implementing a CI/CD Pipeline
-Objective: Build and containerize a Java application, scan the code, and push the container to a repository.
-Estimated Time: 5 Days
+## Part 2: Containerizing a Java Application and Implementing a CI/CD Pipeline
+**Objective:** Build and containerize a Java application, scan the code, and push the container to a repository.
+**Estimated Time:** 5 Days
+**Tools:** GitLab, Azure DevOps, Jenkins, GitHub Actions, JFrog Artifactory, SonarCloud
+**Steps:**
+1. Containerize the application using Docker.
+2. Implement a CI/CD pipeline to build the application and produce a container image.
+3. Scan the code and Docker files using SonarCloud.
+4. Push the container image to JFrog Artifactory.
 
-Tools: GitLab, Azure DevOps, Jenkins, GitHub Actions, JFrog Artifactory, SonarCloud
-Steps:
-Containerize the application using Docker.
-Implement a CI/CD pipeline to build the application and produce a container image.
-Scan the code and Docker files using SonarCloud.
-Push the container image to JFrog Artifactory.
-Part 3: Deploying Infrastructure Using Terraform
-Objective: Deploy a secure, scalable infrastructure.
-Estimated Time: 12 Days
+## Part 3: Deploying Infrastructure Using Terraform
+**Objective:** Deploy a secure, scalable infrastructure.
+**Estimated Time:** 12 Days
+**Tools:** Terraform, AWS/Azure
+**Infrastructure Components:**
+1. VPC with Public, Private, and Secure subnets
+2. Load Balancer in Public Subnet
+3. Auto Scaling Group in Private Subnet
+4. RDS Cluster in Secure Subnet
+**Best Practices:**
+1. Store state in S3/Azure Blob with cross-region replication and encryption.
+2. Enable state locking using DynamoDB.
+3. Use the GitOps approach for Terraform to apply on merge to the main branch.
 
-Tools: Terraform, AWS/Azure
-Infrastructure Components:
-VPC with Public, Private, and Secure subnets
-Load Balancer in Public Subnet
-Auto Scaling Group in Private Subnet
-RDS Cluster in Secure Subnet
-Best Practices:
-Store state in S3/Azure Blob with cross-region replication and encryption.
-Enable state locking using DynamoDB.
-Use GitOps approach for Terraform apply on merge to the main branch.
-Key Requirements:
-Base AMI: Must include essential software and be built using Packer.
-Application Build: Should follow best practices with code scanning and containerization.
-Infrastructure: Should be deployed following industry best practices, ensuring security and scalability.
-Reference Architectures and Pipelines:
-AMI Creation: Reference architecture available on GitHub.
-Application Build: Use the Spring Petclinic repository or any similar Java application.
-Infrastructure Deployment: Follow the provided reference architecture for setting up VPC, subnets, and other components.
-Additional Information:
-Stretch Goals:
-Application and Docker logs to be collected in CloudWatch Logs.
-Document Recovery Time Objective (RTO) and Recovery Point Objective (RPO) for the application.
-Resources and Links:
+## Key Requirements:
+**Base AMI:** Must include essential software and be built using Packer.
+**Application Build:** Should follow best practices with code scanning and containerization.
+**Infrastructure:** Should be deployed following industry best practices, ensuring security and scalability.
 
-Topmate
-YouTube DevOps-Cloud Channel
-By completing this project, participants will gain practical experience in building and deploying scalable and secure cloud infrastructures using IaC and CI/CD practices, making them better prepared for industry demands and interviews.
+## Reference Architectures and Pipelines:
+**AMI Creation:** Reference architecture available on GitHub.
+<p align="center">
+  <img src="./one.png">
+</p>
+**Application Build:** Use the Spring Petclinic repository or any similar Java application.
+<p align="center">
+  <img src="./two.png">
+</p>
+**Infrastructure Deployment:** Follow the provided reference architecture for setting up VPC, subnets, and other components.
+<p align="center">
+  <img src="./Three.png">
+</p>
 ---
 The project is divided into three parts
 |[Part 1](https://github.com/AnirudhBadoni/Packer.git)|[Part 2](https://github.com/AnirudhBadoni/Petclinic.git)|[Part 3](https://github.com/AnirudhBadoni/AwsInfra.git)|
 |---|---|---|
 ---
-<p align="center">
-  <img src="./one.png">
-</p>
-<p align="center">
-  <img src="./two.png">
-</p>
-<p align="center">
-  <img src="./Three.png">
-</p>
+
+
+
