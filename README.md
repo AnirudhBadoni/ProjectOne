@@ -1,7 +1,7 @@
 <h1>Project Title: Infrastructure Deployment using IaC and CI/CD Pipeline Implementation<h1>
 
   
-Project Description:
+<p>Project Description:<p>
 
 Overview
 This project is a proof of concept commissioned by a client to demonstrate the ability to build a scalable and secure infrastructure using Infrastructure as Code (IaC) practices on AWS/Azure and establish a robust DevOps pipeline for building and deploying a Java application. The project is divided into three main parts: creating a base Amazon Machine Image (AMI) using Packer, containerizing a Java application and implementing a CI/CD pipeline, and deploying the infrastructure using Terraform.
