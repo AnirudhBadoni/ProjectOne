@@ -22,7 +22,7 @@ The project is divided into three parts. Please refer to the links of the projec
 2. AWS SSM Agent
 3. Docker
 4. Git Client
-**Provisioning:** Use shell script for beginners and Ansible for more experienced participants.<br>
+**Provisioning:** Use shell script for provisioning.<br>
 **CI Tool:** Any CI tool of choice (e.g., Jenkins, GitHub Actions) to build the Packer pipeline.
 
 ## Part 2: Containerizing a Java Application and Implementing a CI/CD Pipeline
