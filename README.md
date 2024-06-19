@@ -56,9 +56,10 @@ The project is divided into three parts
 3. Use the GitOps approach for Terraform to apply on merge to the main branch.
 
 ## Key Requirements:
-**Base AMI:** Must include essential software and be built using Packer.
-**Application Build:** Should follow best practices with code scanning and containerization.
-**Infrastructure:** Should be deployed following industry best practices, ensuring security and scalability.
+
+**1. Base AMI:** Must include essential software and be built using Packer.
+**2. Application Build:** Should follow best practices with code scanning and containerization.
+**3. Infrastructure:** Should be deployed following industry best practices, ensuring security and scalability.
 
 ## Reference Architectures and Pipelines:
 **AMI Creation:** Reference architecture available on GitHub.
