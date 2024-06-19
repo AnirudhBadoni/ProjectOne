@@ -57,8 +57,8 @@ The project is divided into three parts
 
 ## Key Requirements:
 
-**1. Base AMI:** Must include essential software and be built using Packer.
-**2. Application Build:** Should follow best practices with code scanning and containerization.
+**1. Base AMI:** Must include essential software and be built using Packer.\n
+**2. Application Build:** Should follow best practices with code scanning and containerization.\n
 **3. Infrastructure:** Should be deployed following industry best practices, ensuring security and scalability.
 
 ## Reference Architectures and Pipelines:
