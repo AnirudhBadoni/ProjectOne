@@ -41,6 +41,7 @@ The project is divided into three parts
 1. Store state in S3/Azure Blob with cross-region replication and encryption.
 2. Enable state locking using DynamoDB.
 3. Use the GitOps approach for Terraform to apply on merge to the main branch.
+
 <details>
 <summary>## Reference Architectures and Pipelines:<summary>
 **AMI Creation:** Reference architecture available on GitHub.
