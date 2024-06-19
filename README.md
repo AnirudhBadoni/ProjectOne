@@ -15,6 +15,10 @@ The industry values hands-on experience in DevOps and Cloud, as these are specia
 
 ## Project Breakdown:
 
+The project is divided into three parts
+|[Part 1](https://github.com/AnirudhBadoni/Packer.git)|[Part 2](https://github.com/AnirudhBadoni/Petclinic.git)|[Part 3](https://github.com/AnirudhBadoni/AwsInfra.git)|
+|---|---|---|
+
 ## Part 1: Creation of a Base AMI using Packer
 **Objective:** Build a base AMI with the required software pre-installed.
 **Estimated Time:** 3 Days
@@ -71,11 +75,3 @@ The industry values hands-on experience in DevOps and Cloud, as these are specia
 <p align="center">
   <img src="./Three.png">
 </p>
----
-The project is divided into three parts
-|[Part 1](https://github.com/AnirudhBadoni/Packer.git)|[Part 2](https://github.com/AnirudhBadoni/Petclinic.git)|[Part 3](https://github.com/AnirudhBadoni/AwsInfra.git)|
-|---|---|---|
----
-
-
-
