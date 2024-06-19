@@ -5,7 +5,7 @@ This project is a proof of concept commissioned by a client to demonstrate the a
 
 ## Project Breakdown:
 
-The project is divided into three parts
+The project is divided into three parts. Please refer to the links of the project for a more detail explanation.
 |[Part 1](https://github.com/AnirudhBadoni/Packer.git)|[Part 2](https://github.com/AnirudhBadoni/Petclinic.git)|[Part 3](https://github.com/AnirudhBadoni/AwsInfra.git)|
 |---|---|---|
 
