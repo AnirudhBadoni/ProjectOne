@@ -11,7 +11,6 @@ The project is divided into three parts
 
 ## Part 1: Creation of a Base AMI using Packer
 **Objective:** Build a base AMI with the required software pre-installed.
-**Estimated Time:** 3 Days
 **Tools:** Packer, AWS/Azure
 **Software to be Installed:**
 1. CloudWatch Agent
@@ -23,7 +22,6 @@ The project is divided into three parts
 
 ## Part 2: Containerizing a Java Application and Implementing a CI/CD Pipeline
 **Objective:** Build and containerize a Java application, scan the code, and push the container to a repository.
-**Estimated Time:** 5 Days
 **Tools:** GitLab, Azure DevOps, Jenkins, GitHub Actions, JFrog Artifactory, SonarCloud
 **Steps:**
 1. Containerize the application using Docker.
@@ -33,7 +31,6 @@ The project is divided into three parts
 
 ## Part 3: Deploying Infrastructure Using Terraform
 **Objective:** Deploy a secure, scalable infrastructure.
-**Estimated Time:** 12 Days
 **Tools:** Terraform, AWS/Azure
 **Infrastructure Components:**
 1. VPC with Public, Private, and Secure subnets
