@@ -31,8 +31,8 @@ The project is divided into three parts
   <img src="./two.png">
 </p>
 
-**Objective:** Build and containerize a Java application, scan the code, and push the container to a repository.
-**Tools:** GitLab, Azure DevOps, Jenkins, GitHub Actions, JFrog Artifactory, SonarCloud
+**Objective:** Build and containerize a Java application, scan the code, and push the container to a repository.<br>
+**Tools:** GitLab, Azure DevOps, Jenkins, GitHub Actions, JFrog Artifactory, SonarCloud<br>
 **Steps:**
 1. Containerize the application using Docker.
 2. Implement a CI/CD pipeline to build the application and produce a container image.
