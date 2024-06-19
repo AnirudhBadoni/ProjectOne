@@ -43,7 +43,8 @@ The project is divided into three parts
 3. Use the GitOps approach for Terraform to apply on merge to the main branch.
 
 <details>
-<summary>## Reference Architectures and Pipelines:</summary>summary>
+<summary>Reference Architectures and Pipelines:</summary>
+
 **AMI Creation:** Reference architecture available on GitHub.
 <p align="center">
   <img src="./one.png">
