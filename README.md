@@ -10,6 +10,11 @@ The project is divided into three parts
 |---|---|---|
 
 ## Part 1: Creation of a Base AMI using Packer
+
+<p align="center">
+  <img src="./one.png">
+</p>
+
 **Objective:** Build a base AMI with the required software pre-installed.
 **Tools:** Packer, AWS/Azure
 **Software to be Installed:**
@@ -21,6 +26,11 @@ The project is divided into three parts
 **CI Tool:** Any CI tool of choice (e.g., Jenkins, GitHub Actions) to build the Packer pipeline.
 
 ## Part 2: Containerizing a Java Application and Implementing a CI/CD Pipeline
+
+<p align="center">
+  <img src="./two.png">
+</p>
+
 **Objective:** Build and containerize a Java application, scan the code, and push the container to a repository.
 **Tools:** GitLab, Azure DevOps, Jenkins, GitHub Actions, JFrog Artifactory, SonarCloud
 **Steps:**
@@ -30,6 +40,12 @@ The project is divided into three parts
 4. Push the container image to JFrog Artifactory.
 
 ## Part 3: Deploying Infrastructure Using Terraform
+
+<p align="center">
+  <img src="./Three.png">
+</p>
+</details>
+
 **Objective:** Deploy a secure, scalable infrastructure.
 **Tools:** Terraform, AWS/Azure
 **Infrastructure Components:**
@@ -41,22 +57,3 @@ The project is divided into three parts
 1. Store state in S3/Azure Blob with cross-region replication and encryption.
 2. Enable state locking using DynamoDB.
 3. Use the GitOps approach for Terraform to apply on merge to the main branch.
-
-<details>
-<summary>Reference Architectures and Pipelines:</summary>
-
-**AMI Creation:** Reference architecture available on GitHub.
-<p align="center">
-  <img src="./one.png">
-</p>
-
-**Application Build:**  Use the Spring Petclinic repository or any similar Java application.
-<p align="center">
-  <img src="./two.png">
-</p>
-
-**Infrastructure Deployment:** Follow the provided reference architecture for setting up VPC, subnets, and other components.
-<p align="center">
-  <img src="./Three.png">
-</p>
-</details>
