@@ -15,14 +15,14 @@ The project is divided into three parts
   <img src="./one.png">
 </p>
 
-**Objective:** Build a base AMI with the required software pre-installed.
-**Tools:** Packer, AWS/Azure
+**Objective:** Build a base AMI with the required software pre-installed.<br>
+**Tools:** Packer, AWS/Azure<br>
 **Software to be Installed:**
 1. CloudWatch Agent
 2. AWS SSM Agent
 3. Docker
 4. Git Client
-**Provisioning:** Use shell script for beginners and Ansible for more experienced participants.
+**Provisioning:** Use shell script for beginners and Ansible for more experienced participants.<br>
 **CI Tool:** Any CI tool of choice (e.g., Jenkins, GitHub Actions) to build the Packer pipeline.
 
 ## Part 2: Containerizing a Java Application and Implementing a CI/CD Pipeline
@@ -46,8 +46,8 @@ The project is divided into three parts
 </p>
 </details>
 
-**Objective:** Deploy a secure, scalable infrastructure.
-**Tools:** Terraform, AWS/Azure
+**Objective:** Deploy a secure, scalable infrastructure.<br>
+**Tools:** Terraform, AWS/Azure<br>
 **Infrastructure Components:**
 1. VPC with Public, Private, and Secure subnets
 2. Load Balancer in Public Subnet
