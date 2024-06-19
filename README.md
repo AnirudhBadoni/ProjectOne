@@ -5,14 +5,6 @@
 ## Overview
 This project is a proof of concept commissioned by a client to demonstrate the ability to build a scalable and secure infrastructure using Infrastructure as Code (IaC) practices on AWS/Azure and establish a robust DevOps pipeline for building and deploying a Java application. The project is divided into three main parts: creating a base Amazon Machine Image (AMI) using Packer, containerizing a Java application and implementing a CI/CD pipeline, and deploying the infrastructure using Terraform.
 
-## Why Are We Doing This Project?
-The industry values hands-on experience in DevOps and Cloud, as these are specialized and vast fields. Traditional academic courses and Zero to Hero tutorials often fall short in providing the practical, real-world skills necessary for professionals to stand out. This project aims to bridge that gap by offering practical experience in key DevOps and Cloud concepts, allowing professionals to build their GitHub repositories with quality projects that demonstrate their skills.
-
-##  Who This Project Is Suitable For:
-1. Freshers and Entry-Level DevOps and Cloud Engineers: Those with some basic knowledge and hands-on experience in simpler projects.
-2. Experienced IT Professionals Transitioning to DevOps and Cloud: Individuals looking to switch their career path to DevOps and Cloud.
-3. Experienced IT Professionals in DevOps and Cloud: Those seeking to enhance their skills with more advanced projects.
-
 ## Project Breakdown:
 
 The project is divided into three parts
