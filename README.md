@@ -42,7 +42,7 @@ The project is divided into three parts. Please refer to the links of the projec
 ## Part 3: Deploying Infrastructure Using Terraform
 
 <p align="center">
-  <img src="./Three.png">
+  <img src="./three.png">
 </p>
 </details>
 
