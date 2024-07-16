@@ -2,6 +2,10 @@
 
 ## Overview
 This project is a proof of concept commissioned by a client to demonstrate the ability to build a scalable and secure infrastructure using Infrastructure as Code (IaC) practices on AWS/Azure and establish a robust DevOps pipeline for building and deploying a Java application. The project is divided into three main parts: creating a base Amazon Machine Image (AMI) using Packer, containerizing a Java application and implementing a CI/CD pipeline, and deploying the infrastructure using Terraform.
+## Features:
+1. Support multibranch pipeline
+2. Have Public, private and secure subnets.
+3. Have a Different Name for each docker image based on the commit branch and the commit ID for better discovery of the correct docker image. 
 
 ## Project Breakdown:
 
